@@ -7,8 +7,6 @@
 
 Este projeto foi desenvolvido como parte do Desafio Alura Challenge | Front End. Seu objetivo era apresentar minhas habilidades em desenvolvimento web, aplicando tanto técnicas e conhecimentos que eu já possuía quanto novos aprendizados adquiridos nos cursos da Alura.
 
----
-
 
 ## 🚀 Tecnologias
 
