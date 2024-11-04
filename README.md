@@ -3,7 +3,7 @@
 </p>
 
 
-# Adolfo Henrique - Portfólio Profissional | Desafio Alura Challenge
+# Portfólio Adolfo Henrique | Desafio Alura Challenge
 Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.
 <br><br>
 Bem-vindo ao meu portfólio profissional!
