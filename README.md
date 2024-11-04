@@ -14,14 +14,6 @@ O objetivo é apresentar minhas habilidades em desenvolvimento web, aplicando t�
 ---
 
 
-# Portfólio Profissional - Adolfo Henrique
-
-👋 Bem-vindo ao meu portfólio profissional! Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.  
-O objetivo é apresentar minhas habilidades em desenvolvimento web, aplicando técnicas aprendidas no curso e também conhecimentos que já havia adquirido ou que obtive durante o processo de desenvolvimento. O resultado é um portfólio completo e responsivo que reflete minha evolução e experiência na área.
-
----
-
-
 ## 🚀 Tecnologias
 
 - **HTML5**
