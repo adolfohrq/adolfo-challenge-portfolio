@@ -3,12 +3,24 @@
 </p>
 
 
-# Portfólio Profissional - Adolfo Henrique
+# Adolfo Henrique - Portfólio Profissional | Desafio Alura Challenge
 
-Bem-vindo ao meu portfólio!
-Esse projeto faz parte do Desafio Alura Challenge Portfólio e foi criado para mostrar meu portfólio profissional.
+Bem-vindo ao meu portfólio profissional!
+<br>
+Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.
+<br><br>
+O objetivo é apresentar minhas habilidades em desenvolvimento web, aplicando técnicas aprendidas no curso e também conhecimentos que já havia adquirido ou que adquiri durante o processo de desenvolvimento. O resultado é um portfólio completo apresentando minhas ferramentas de trabalho, habilidades e experiências e por fim alguns projetos que já desenvolvi ao longo da minha carreira profissional.
 
 ---
+
+
+# Portfólio Profissional - Adolfo Henrique
+
+👋 Bem-vindo ao meu portfólio profissional! Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.  
+O objetivo é apresentar minhas habilidades em desenvolvimento web, aplicando técnicas aprendidas no curso e também conhecimentos que já havia adquirido ou que obtive durante o processo de desenvolvimento. O resultado é um portfólio completo e responsivo que reflete minha evolução e experiência na área.
+
+---
+
 
 ## 🚀 Tecnologias
 
