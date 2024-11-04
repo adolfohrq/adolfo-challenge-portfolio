@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="projeto adolfo" src="assets/img/cover.jpg" width="100%">
+  <img alt="projeto adolfo" src="assets/img/cover.png" width="100%">
 </p>
 
 
@@ -42,17 +42,13 @@ A organização do projeto está dividida em diferentes pastas para facilitar a 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone (https://github.com/adolfohrq/adolfo-challenge-portfolio.git)
    ```
-2. Abra o arquivo `index.html` no navegador de sua preferência e explore o portfólio!
+2. Acesse https://challenge.adolfohenrique.com.br/
 
 ## 💬 Contribuições
 
 Tem sugestões? Encontrou algum problema? Contribuições são sempre bem-vindas. Fique à vontade para abrir issues ou enviar pull requests.
-
-## 📄 Licença
-
-Distribuído sob a licença MIT. Consulte `LICENSE` para mais informações.
 
 ---
 
