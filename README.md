@@ -10,7 +10,7 @@ Esse projeto faz parte do Desafio Alura Challenge Portfólio e foi criado para m
 
 ---
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias
 
 - **HTML5**
 - **CSS**
@@ -18,7 +18,7 @@ Esse projeto faz parte do Desafio Alura Challenge Portfólio e foi criado para m
 - **jQuery**
 - **Bootstrap 5**
 
-## Bibliotecas de Terceiros
+## 📓 Bibliotecas de Terceiros
 
 - **Font Awesome**
 - **Magnific Popup**
