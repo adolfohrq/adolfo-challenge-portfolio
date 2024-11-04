@@ -3,7 +3,7 @@
 </p>
 
 
-# 🎨 Portfólio Profissional - Adolfo Henrique
+# Portfólio Profissional - Adolfo Henrique
 
 Bem-vindo ao meu portfólio!
 Esse projeto faz parte do Desafio Alura Challenge Portfólio e foi criado para mostrar meu portfólio profissional.
