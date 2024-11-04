@@ -44,7 +44,3 @@ A organização do projeto está dividida em diferentes pastas para facilitar a 
    ```bash
    git clone https://github.com/adolfohrq/adolfo-challenge-portfolio.git
    ```
-
----
-
-Desenvolvido com 💙 por Adolfo Henrique
