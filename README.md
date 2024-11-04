@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como parte do curso **Praticando Front End: Challe
 - **CSS**
 - **JavaScript**
 - **jQuery**
-- **Bootstrap 5**
+- **Bootstrap**
 
 ## 📓 Bibliotecas de Terceiros
 
