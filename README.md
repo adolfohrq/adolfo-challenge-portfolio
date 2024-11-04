@@ -39,7 +39,7 @@ A organização do projeto está dividida em diferentes pastas para facilitar a 
 - `assets/img/` - Imagens e ícones utilizados no projeto.
 
 ## 🎯 Como Visualizar
-- Acesse https://challenge.adolfohenrique.com.br/
+- Acesse: https://challenge.adolfohenrique.com.br/
 - Clone o repositório:
    ```bash
    git clone https://github.com/adolfohrq/adolfo-challenge-portfolio.git
