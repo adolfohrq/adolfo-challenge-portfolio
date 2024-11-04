@@ -4,11 +4,10 @@
 
 
 # Adolfo Henrique - Portfólio Profissional | Desafio Alura Challenge
-
-Bem-vindo ao meu portfólio profissional!
-<br>
 Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.
 <br><br>
+Bem-vindo ao meu portfólio profissional!
+<br>
 No desenvolvimento deste projeto, pude aplicar técnicas e conhecimentos que já possuía, além de colocar em prática novos aprendizados adquiridos nos cursos da Alura.
 
 ---
