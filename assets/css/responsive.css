@@ -1,0 +1,305 @@
+/*=============================
+    @media (max-width:1399.98px)
+===============================*/
+
+@media (max-width:1399.98px) {
+  .buttons-group .btn {
+    padding: 16px 13px;
+    font-size: 15px;
+  }
+
+  .card-title {
+    gap: 15px;
+  }
+
+  .skills .skills-item {
+    height: 100%;
+  }
+
+}
+
+/*=============================
+    @media (max-width:1199.98px)
+===============================*/
+
+@media (max-width:1199.98px) {
+  .navbar .navbar-main {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100%;
+    background-color: var(--white);
+    z-index: 9999;
+    padding: 24px;
+    transition: all linear 0.2s;
+  }
+
+  .header-area .container .navbar-main {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .header-area .container .inner-logo {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .header-area .container .navbar-info {
+    margin: 0;
+    margin-top: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .header-area .navbar-info .nav-item {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .header-area .header-right-info .contact-btn {
+    display: block;
+    width: 100%;
+  }
+
+  .header-right-info {
+    display: block !important;
+    margin-top: auto;
+    width: 100%;
+  }
+
+  .header-area .header-right-info .contact-btn {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 16, 24, 0.5);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.2s;
+  }
+
+  .header-area .menu-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 10px 10px 24px;
+  }
+
+  .mobile-menu-overlay.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .profile-card .image {
+    aspect-ratio: 6 / 4;
+  }
+
+  .profile-card .image img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .buttons-group .btn {
+    padding: 16px 24px;
+    font-size: 16px;
+  }
+
+  .software-card {
+    height: unset;
+  }
+
+  .contact-card .buttons-group {
+    margin-top: 0px;
+    order: 2;
+  }
+
+}
+
+
+/*=============================
+    @media (max-width:991.98px)
+===============================*/
+
+@media (max-width:991.98px) {
+  .skills-item {
+    padding: 16px 13px 16px 13px;
+  }
+}
+
+
+
+/*=============================
+  @media (max-width:768px) 
+===============================*/
+
+@media (max-width:768px) {
+
+  .profile-title {
+    font-family: 'Poppins', sans-serif;	
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.333em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.profile-card .text p {
+	margin-top: 8px;
+  margin-bottom: 15px;
+	color: var(--light-black);
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+  .projects-grid {
+    grid-template-columns: 1fr;
+    /* Mostra um projeto por linha no mobile */
+    gap: 20px;
+    /* Ajusta o espaçamento entre os projetos */
+  }
+
+  .card-projects .projects-item {
+    min-width: 25%;
+    margin-top: 0;
+    /* Cada projeto ocupa 25% da tela no desktop */
+  }
+
+  .header-right-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    /* Ajusta a distância do fundo */
+    width: 80%;
+    /* Ocupar a largura total */
+  }
+
+  .social-media-icon {
+    margin-bottom: 10px;
+    /* Espaçamento entre ícones de redes sociais e botão */
+  }
+
+  .header-right-info .contact-btn {
+    width: 90%;
+    /* Para garantir que o botão "Fale Comigo" ocupe mais espaço no mobile */
+    text-align: center;
+  }
+
+
+  .location,
+  .age {
+    display: flex;
+    /* Utiliza flexbox para alinhar ícones e texto */
+    align-items: center;
+    /* Alinha verticalmente os itens */
+    color: #464646;
+    /* Cor padrão para texto e ícones */
+  }
+
+  .location i,
+  .age i {
+    font-size: 18px;
+    /* Tamanho do ícone */
+  }
+
+  .location-text,
+  .age-text {
+    font-size: 14px;
+    /* Tamanho do texto */
+    font-weight: 500;
+    /* Peso da fonte */
+    margin-left: 8px;
+    /* Espaçamento entre ícone e texto */
+  }
+
+
+  .card-title {
+    gap: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 22px;
+  }
+
+
+  .header-area .container .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    line-height: 1em;
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .header-area .container .navbar-brand span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    margin-left: 4px;
+    font-weight: 600;
+    line-height: 1em;
+    color: var(--black);
+  }
+
+  .logo-img {
+    height: 30px;
+    /* Define the height of the logo */
+    vertical-align: middle;
+    /* Aligns the logo with the middle of the text */
+  }
+
+
+  .header-area .container .inner-logo {
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar .navbar-main {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100%;
+    background-color: var(--white);
+    z-index: 9999;
+    padding: 20px;
+    transition: all linear 0.2s;
+  }
+
+
+}
+
+
+/*=============================
+	@media (max-width:575.98px)
+===============================*/
+
+
+@media (max-width:575.98px) {
+  .buttons-group .btn.btn-copy {
+    margin-top: 8px;
+  }
+
+  .card-title {
+    gap: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skills-item {
+    height: 100%;
+  }
+
+  .skills-item {
+    padding: 10px 10px 14px 10px;
+  }
+
+}

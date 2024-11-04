@@ -1,0 +1,879 @@
+/*=============================
+	Google Fonts
+===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+
+/*=============================
+	Base - CSS
+===============================*/
+
+:root {
+    --font-family: "Bricolage Grotesque", sans-serif;
+    --blue: #4770FF;
+    --blue-hover: #2563eb;
+    --text-black: #1a2c22;
+    --text-p: #5f5f5f;
+    --white: #ffffff;
+    --background: #F0F2F5;
+    --font-size: 16px;
+    --title-size: 21px;
+    --font-weight: 400;
+    --line-height: 1.6em;
+    --transition: all 0.1s ease-out 0s;
+    --border: #DBDFE5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--text-black);
+    overflow-x: hidden;
+    background-color: var(--background);
+    padding: 24px 10px 24px 10px;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-black);
+    font-size: var(--title-size);
+    padding: 0;
+}
+
+a,
+span,
+small {
+    font-size: 16px;
+    display: inline-block;
+}
+
+a,
+button {
+    -webkit-transition: all 0.1s ease-out 0s;
+    -moz-transition: all 0.1s ease-out 0s;
+    -ms-transition: all 0.1s ease-out 0s;
+    -o-transition: all 0.1s ease-out 0s;
+    transition: all 0.1s ease-out 0s;
+    text-decoration: none;
+}
+
+a:focus,
+.btn:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    color: var(--font-size);
+    margin: 0;
+    padding: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+
+.mt-3 {
+    margin-top: 24px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+#page-content {
+    display: none;
+}
+
+
+/*=============================
+	Header - CSS
+===============================*/
+
+.header-area {
+    width: 100%;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}
+
+.header-area .menu-container {
+    background-color: var(--white);
+    box-shadow: 0 1px 2px 0 rgba(26, 31, 44, 0.25);
+    border-radius: 16px;
+    padding: 18px 20px 17px 24px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-area .container .navbar-main {
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header-area .container .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 1em;
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.header-area .container .navbar-brand span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-left: 8px;
+    font-weight: 600;
+    line-height: 1em;
+    color: var(--text-black);
+}
+
+.header-area .container .navbar-brand span.blue {
+    color: var(--blue);
+}
+
+.header-area .navbar {
+    padding: 0;
+}
+
+.header-area .navbar-expand-lg .navbar-info {
+    display: block !important;
+}
+
+.header-area .navbar-expand-lg .navbar-info .nav-link {
+    padding: 0;
+}
+
+.header-area .navbar-info .nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.header-area .navbar-info .nav-link {
+    color: var(--text-p);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px !important;
+    border-radius: 8px;
+}
+
+.header-area .navbar-info .nav-link .nav-icon {
+    stroke: #8991A7;
+    width: 20px;
+    height: 20px;
+    margin-right: 11px;
+    transition: var(--transition);
+}
+
+.header-area .navbar-info .nav-link.active {
+    color: var(--text-black);
+    background-color: var(--background);
+}
+
+.header-area .navbar-info .nav-link.active .nav-icon {
+    stroke: var(--text-black);
+}
+
+.header-area .navbar-info .nav-item:hover .nav-link {
+    background-color: var(--background);
+}
+
+.header-area .navbar-info .nav-item:hover .nav-link .nav-icon {
+    stroke: var(--text-black);
+}
+
+.header-area .header-right-info .contact-whats {
+    background-color: #25d366;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    line-height: 1.2em;
+    margin-left: 16px;
+}
+
+.header-area .header-right-info {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.header-area .social-media-icon {
+    margin-left: auto;
+}
+
+.header-area .header-right-info .contact-whats:hover {
+    background-color: #2ce26f;
+}
+
+.header-area .header-right-info .contact-whats .icon {
+    margin-right: 8px;
+}
+
+.header-area .mobile-menu-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-right: 15px;
+}
+
+.navbar-main.show {
+    left: 0 !important;
+}
+
+.logo-img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+
+/*=============================
+	Home - CSS
+===============================*/
+
+.home-area {
+    margin-top: 24px;
+}
+
+.card {
+    border: 0;
+    background-color: var(--white);
+    box-shadow: 0 1px 2px 0 rgba(26, 31, 44, 0.25);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+
+.profile-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.333em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.333em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-title .link-btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--blue);
+    line-height: 1.5em;
+    border-bottom: 1px solid var(--border);
+}
+
+.card-title .link-btn:hover {
+    border-color: var(--blue);
+}
+
+.card-title .link-btn .icon {
+    stroke: var(--blue);
+}
+
+
+
+
+/*=============================
+	Profile - CSS
+===============================*/
+
+
+.profile-card .image {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    height: 310px;
+    margin-bottom: 20px;
+}
+
+.profile-card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.profile-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card .text {
+    flex-grow: 1;
+}
+
+.profile-card .text p {
+    margin-top: 8px;
+    color: var(--text-p);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.profile-card .text p span {
+    color: var(--text-black);
+    font-weight: 600;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--text-p);
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.info-item i {
+    margin-right: 12px;
+    font-size: 16px;
+    color: var(--blue);
+}
+
+
+/*=============================
+	Software Section - CSS
+===============================*/
+
+
+.software-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.software-card .software-item {
+    text-align: center;
+    margin: 3px;
+}
+
+.software-card .software-item .image {
+    background-color: var(--background);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.software-card .software-item .image img {
+    width: 38px;
+    height: 38px;
+}
+
+.software-card .software-item .text .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-black);
+    line-height: 1.5em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+/*=============================
+	Skills Section - CSS
+===============================*/
+
+
+.skills-item {
+    background-color: var(--background);
+    padding: 16px 16px 10px 16px;
+    border-radius: 16px;
+}
+
+.skills-item .image {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.skills-item .text .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-black);
+    line-height: 1.5em;
+    margin-top: 16px;
+}
+
+.skills-item .icon {
+    width: 64px;
+    height: 64px;
+}
+
+/*=============================
+	Projects Section - CSS
+===============================*/
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-projects .projects-item {
+    background-color: var(--background);
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-projects .projects-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-projects .projects-item .image {
+    background-color: var(--background);
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-projects .projects-item .image img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+
+.card-projects .projects-item .image .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    width: 100%;
+    padding: 10px;
+}
+
+.card-projects .projects-item .image .info .category {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--blue);
+    background-color: var(--white);
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 16px;
+    line-height: 1.333em;
+}
+
+.card-projects .projects-item .image .full-image-preview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: var(--blue);
+    filter: drop-shadow(0 12px 12px rgba(26, 31, 44, 0.25));
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-projects .projects-item .image .full-image-preview .icon {
+    width: 22px;
+    height: 22px;
+}
+
+.card-projects .projects-item .image:hover .full-image-preview {
+    visibility: visible;
+    opacity: 1;
+}
+
+.info {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.info .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-black);
+    line-height: 1.5em;
+}
+
+.info .category {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+.projects-tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.projects-item {
+    padding: 17px;
+    margin-top: 10px;
+    min-width: 25%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.tab-btn {
+    padding: 4px 15px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.tab-btn.active {
+    color: var(--blue);
+}
+
+.tab-btn:hover {
+    color: var(--blue);
+}
+
+.projects-tabs-mobile {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    text-align: center;
+}
+
+.projects-tabs-mobile .filter-text {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.projects-tabs-mobile .filter-text:hover {
+    color: var(--blue);
+}
+
+.projects-tabs-mobile .filter-text.active {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+
+
+
+/*=============================
+	Buttons - CSS
+===============================*/
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn .material-icons {
+    margin-right: 8px;
+}
+
+.btn i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+
+.buttons-group {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.buttons-group .btn {
+    background-color: var(--blue);
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons-group .btn:hover {
+    background-color: var(--blue-hover);
+}
+
+.buttons-group .btn .icon {
+    margin-right: 8px;
+}
+
+
+
+/*=============================
+	Social Media Icons - CSS
+===============================*/
+
+.social-media-icon ul li {
+    display: inline-block;
+}
+
+.social-media-icon ul li {
+    margin-right: 4px;
+}
+
+.social-media-icon ul li a {
+    color: var(--text-black);
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    text-align: center;
+    line-height: 40px;
+}
+
+.social-media-icon ul li a:hover {
+    color: var(--blue-hover);
+}
+
+
+
+/*=============================
+	Contact Popup - CSS
+===============================*/
+
+.contact-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 31, 44, 0.8);
+}
+
+.popup-content {
+    background-color: var(--white);
+    color: var(--text-black);
+    margin: 5% auto;
+    padding: 24px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-family);
+}
+
+.close-popup {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 24px;
+    color: var(--font-size);
+    cursor: pointer;
+}
+
+.popup-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.popup-content label {
+    font-size: var(--font-size);
+    color: var(--text-p);
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.popup-content input,
+.popup-content textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: var(--font-size);
+    color: var(--text-black);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--background);
+}
+
+.popup-content input:focus,
+.popup-content textarea:focus {
+    border-color: var(--blue);
+    outline: none;
+}
+
+.popup-content button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    font-size: var(--font-size);
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.popup-content button:hover {
+    background-color: var(--blue-hover);
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 5px;
+    display: block;
+}
+
+
+
+/*=============================
+	Footer - CSS
+===============================*/
+
+.footer-area {
+    padding-top: 60px;
+}
+
+.footer-area .text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-black);
+    line-height: 1.257em;
+}
+
+.footer-area .text p a {
+    color: var(--blue);
+}
+
+.footer-area .text p a:hover {
+    text-decoration: underline;
+}
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.experience-item {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}

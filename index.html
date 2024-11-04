@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Adolfo Henrique - Alura Challenge Portfólio</title>
+  <meta name="description" content="Adolfo Henrique - Alura Challenge Portfólio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.webp">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+
+</head>
+
+
+<body>
+
+  <div id="page-content">
+    <!-- Header -->
+    <header class="header-area">
+      <nav class="navbar">
+        <div class="container">
+          <div class="menu-container">
+            <div class="logo">
+              <a class="navbar-brand me-0" href="index.html">
+                <img src="assets/img/logo/logo.png" alt="Adolfo Logo" class="logo-img">
+                <span>Adolfo</span> Henrique
+              </a>
+            </div>
+            <div class="navbar-main d-flex flex-grow-1">
+              <div class="logo inner-logo d-block d-xl-none">
+                <a class="navbar-brand me-0" href="index.html">
+                  <img src="assets/img/logo/logo.png" alt="Adolfo Logo" class="logo-img">
+                  <span>Adolfo</span> Henrique
+                </a>
+              </div>
+
+
+              <ul class="navbar-info mx-auto d-lg-none">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#page-content">
+                    <svg class="nav-icon" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M13.475 4.92481L9.03083 1.46814C8.64082 1.16473 8.1608 1 7.66667 1C7.17254 1 6.69251 1.16473 6.3025 1.46814L1.8575 4.92481C1.59037 5.13254 1.37424 5.39858 1.22563 5.7026C1.07701 6.00662 0.99984 6.34058 1 6.67897V12.679C1 13.121 1.17559 13.5449 1.48816 13.8575C1.80072 14.17 2.22464 14.3456 2.66667 14.3456H12.6667C13.1087 14.3456 13.5326 14.17 13.8452 13.8575C14.1577 13.5449 14.3333 13.121 14.3333 12.679V6.67897C14.3333 5.99314 14.0167 5.34564 13.475 4.92481Z"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M10.9753 10.1665C9.13359 11.2773 6.14859 11.2773 4.30859 10.1665" stroke-width="1.4"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span>Início</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#softwares">
+                    <svg class="nav-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.99967 1.3335L1.33301 4.66683L7.99967 8.00016L14.6663 4.66683L7.99967 1.3335Z"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M1.33301 8L7.99967 11.3333L14.6663 8" stroke-width="1.4" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                      <path d="M1.33301 11.3335L7.99967 14.6668L14.6663 11.3335" stroke-width="1.4"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Ferramentas 
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">
+                    <svg class="nav-icon" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M2.00326 3.99733L7.95159 1.40649C8.04974 1.36442 8.15533 1.34243 8.26212 1.34181C8.3689 1.34119 8.47473 1.36196 8.57337 1.40289C8.67201 1.44382 8.76145 1.50408 8.83642 1.58013C8.9114 1.65617 8.97039 1.74646 9.00992 1.84566L13.1133 11.764C13.1985 11.9651 13.2014 12.1917 13.1213 12.3949C13.0412 12.5982 12.8845 12.7618 12.6849 12.8507L6.73742 15.4415C6.63922 15.4837 6.53356 15.5058 6.42668 15.5065C6.3198 15.5072 6.21387 15.4864 6.11514 15.4455C6.0164 15.4046 5.92688 15.3442 5.85184 15.2681C5.7768 15.192 5.71778 15.1016 5.67826 15.0023L1.57492 5.08316C1.48963 4.88204 1.48673 4.65546 1.56684 4.45222C1.64696 4.24898 1.80367 4.08616 2.00326 3.99733Z"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M11.5 1.3335H12.3333C12.5543 1.3335 12.7663 1.42129 12.9226 1.57757C13.0789 1.73385 13.1667 1.94582 13.1667 2.16683V5.0835"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M15.6663 3C15.8863 3.09333 16.0997 3.18083 16.3063 3.2625C16.5098 3.34882 16.6706 3.51241 16.7534 3.71729C16.8362 3.92217 16.8343 4.15155 16.748 4.355L14.833 8.83334"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Habilidades e Experiências
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">
+                    <svg class="nav-icon" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M2.00326 3.99733L7.95159 1.40649C8.04974 1.36442 8.15533 1.34243 8.26212 1.34181C8.3689 1.34119 8.47473 1.36196 8.57337 1.40289C8.67201 1.44382 8.76145 1.50408 8.83642 1.58013C8.9114 1.65617 8.97039 1.74646 9.00992 1.84566L13.1133 11.764C13.1985 11.9651 13.2014 12.1917 13.1213 12.3949C13.0412 12.5982 12.8845 12.7618 12.6849 12.8507L6.73742 15.4415C6.63922 15.4837 6.53356 15.5058 6.42668 15.5065C6.3198 15.5072 6.21387 15.4864 6.11514 15.4455C6.0164 15.4046 5.92688 15.3442 5.85184 15.2681C5.7768 15.192 5.71778 15.1016 5.67826 15.0023L1.57492 5.08316C1.48963 4.88204 1.48673 4.65546 1.56684 4.45222C1.64696 4.24898 1.80367 4.08616 2.00326 3.99733Z"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M11.5 1.3335H12.3333C12.5543 1.3335 12.7663 1.42129 12.9226 1.57757C13.0789 1.73385 13.1667 1.94582 13.1667 2.16683V5.0835"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M15.6663 3C15.8863 3.09333 16.0997 3.18083 16.3063 3.2625C16.5098 3.34882 16.6706 3.51241 16.7534 3.71729C16.8362 3.92217 16.8343 4.15155 16.748 4.355L14.833 8.83334"
+                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Projetos
+                  </a>
+                </li>
+              </ul>
+              <div class="header-right-info d-flex align-items-center">
+
+                <div class="social-media-icon">
+                  <ul class="list-unstyled">
+                    <li><a href="https://www.facebook.com/adolfohrq/" target="_blank"><i
+                          class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/adolfohrq/" target="_blank"><i
+                          class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/adolfohrq/" target="_blank"><i
+                          class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+                <a href="https://api.whatsapp.com/send/?phone=5548996084931" class="contact-whats" target="_blank">
+                  <img class="icon" src="assets/img/icons/whatsapp.svg" alt="WhatsApp Icon" width="20" height="20">
+                  Falar pelo WhatsApp
+                </a>
+
+              </div>
+
+
+            </div>
+
+            <div class="mobile-menu-overlay d-block d-lg-none"></div>
+            <div class="mobile-menu-control-bar d-block d-xl-none">
+              <button class="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header-->
+
+    <!-- Home Section -->
+    <main>
+      <section class="home-area">
+        <div class="container">
+          <div class="row g-4">
+
+
+            <!-- Coluna do Perfil -->
+            <div class="col-xl-4">
+              <article class="card profile-card">
+                <div class="card-body">
+                  <div class="image text-center">
+                    <img src="assets/img/images/profile.jpg" alt="profile">
+                  </div>
+                  <div class="text">
+                    <h1 class="profile-title">Adolfo Henrique Nack Borba</h1>
+                    <p>Profissional em <span>Marketing Digital</span>, <span>Design Gráfico</span> e <span>Web
+                        Design</span>.</p>
+                    <p>Minha jornada profissional é impulsionada pela paixão em combinar criatividade e tecnologia,
+                      sempre buscando soluções inovadoras para desafios complexos.</p>
+                    <div class="info-card">
+                      <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="info-text">Tubarão/SC - Brasil</span>
+                      </div>
+                      <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="info-text">+55 (48) 9.9608-4931</span>
+                      </div>
+                      <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span class="info-text">adolfohrq@live.com</span>
+                      </div>
+                    </div>
+
+
+                    <div class="buttons-group text-center">
+                      <a class="btn btn-curriculum" href="/assets/adolfo_curriculum.pdf" download="adolfo_curriculum.pdf">
+                        <i class="fas fa-download"></i>
+                        Curriculum Vitae
+                      </a>
+                      <button class="btn btn-email" data-clipboard-text="adolfohrq@live.com">
+                        <i class="fas fa-envelope"></i>
+                        Envie uma Mensagem
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Coluna Ferramentas e Habilidades -->
+            <div class="col-xl-8">
+              <div class="row g-4">
+                <!-- Seção Ferramentas -->
+                <div class="col-lg-12">
+                  <article class="card software-card" id="softwares">
+                    <div class="card-body">
+                      <h2 class="card-title">Ferramentas</h2>
+                      <div class="software-main mt-24">
+                        <div class="row g-3">
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/photoshop.svg" alt="photoshop" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Photoshop</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/ilustrator.svg" alt="illustrator" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Illustrator</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/wordpress.svg" alt="wordpress" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Wordpress</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/chatgpt.svg" alt="chatgpt" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">ChatGPT</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row g-3 mt-1">
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/clickup.svg" alt="clickup">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">ClickUP</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/n8n.svg" alt="n8n">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">N8N</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/vscode.svg" alt="vscode">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">VScode</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-md-3 col-sm-6 col-6">
+                            <div class="software-item">
+                              <div class="image text-center">
+                                <img src="assets/img/icons/softwares/capcut.svg" alt="CapCut">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">CapCut</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+
+                
+                <!-- Seção Habilidades e Experiências -->
+                <div class="col-lg-12">
+                  <article class="card skills-card" id="skills">
+                    <div class="card-body">
+                      <h2 class="card-title">Habilidades e Experiências</h2>
+                      <div class="skills-main mt-24">
+                        <div class="row g-4">
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/design.svg" alt="Design Gráfico" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Design Gráfico</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/web.svg" alt="Web Design" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Web Design</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/social.svg" alt="Social Media" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Social Media</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/brand.svg" alt="Branding" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Branding</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="skills-main mt-24">
+                        <div class="row g-4">
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/marketing.svg" alt="Marketing Digital" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Marketing Digital</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/ads.svg" alt="Tráfego Pago" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Tráfego Pago</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/ia.svg" alt="Inteligências Artificiais" class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Int. Artificiais</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-sm-6 col-6">
+                            <div class="skills-item text-center">
+                              <div class="image">
+                                <img src="assets/img/icons/skills/automacoes.svg" alt="Automações de Processos"
+                                  class="icon">
+                              </div>
+                              <div class="text">
+                                <h3 class="title">Automações</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <!-- Projects Section -->
+          <div class="card card-projects mt-24" id="projects">
+            <div class="card-body">
+              <!-- Container flexível para o título e as abas de categoria -->
+              <div class="projects-header">
+                <h2 class="card-title">Projetos</h2>
+
+                <!-- Filtros - Desktop-->
+                <div class="projects-tabs d-none d-md-block">
+                  <button class="tab-btn active" data-category="all">Todos</button>
+                  <button class="tab-btn" data-category="branding">Branding</button>
+                  <button class="tab-btn" data-category="wordpress">Wordpress</button>
+                </div>
+              </div>
+
+              <!-- Filtros - Mobile -->
+              <div class="projects-tabs-mobile d-md-none mt-2">
+                <span class="filter-text active" data-category="all">Todos</span>
+                <span class="filter-text" data-category="branding">Branding</span>
+                <span class="filter-text" data-category="wordpress">Wordpress</span>
+              </div>
+
+              <!-- Projetos Grid -->
+              <div class="projects-main mt-24">
+                <div class="projects-grid">
+
+                  <!-- PROJETO - 01 (IPPAX) -->
+                  <div class="projects-item" data-category="wordpress">
+                    <div class="image">
+                      <img src="assets/img/projects/ippax/ippax-1.jpg" class="img-fluid w-100"
+                        alt="Ippax - Projeto Wordpress">
+                      <a href="https://ippax.com" class="full-image-preview" target="_blank">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Ippax - Wordpress</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PROJETO - 02 (NOBRE LOBO) -->
+                  <div class="projects-item" data-category="branding">
+                    <div class="image">
+                      <img src="assets/img/projects/nobrelobo/nobrelobo-1.jpg" class="img-fluid w-100"
+                        alt="Nobre Lobo - Branding">
+                      <a href="assets/img/projects/nobrelobo/nobrelobo-1.jpg" class="gallery-popup full-image-preview">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Nobre Lobo - Branding</span>
+                      </div>
+                    </div>
+                    <div class="additional-images" style="display: none;">
+                      <a href="assets/img/projects/nobrelobo/nobrelobo-2.jpg" class="gallery-popup"></a>
+                      <a href="assets/img/projects/nobrelobo/nobrelobo-3.jpg" class="gallery-popup"></a>
+                    </div>
+                  </div>
+
+
+                  <!-- PROJETO - 03 (BRANORTE) -->
+                  <div class="projects-item" data-category="wordpress">
+                    <div class="image">
+                      <img src="assets/img/projects/branorte/branorte-1.jpg" class="img-fluid w-100"
+                        alt="Branorte - Wordpress">
+                      <a href="https://mbranorte.com.br" class="full-image-preview" target="_blank">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Branorte - Wordpress</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PROJETO - 04 (COWORKING) -->
+                  <div class="projects-item" data-category="branding">
+                    <div class="image">
+                      <img src="assets/img/projects/coworking/coworking-1.jpg" class="img-fluid w-100"
+                        alt="Coworking - Branding">
+                      <a href="assets/img/projects/coworking/coworking-1.jpg" class="gallery-popup full-image-preview">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Coworking - Branding</span>
+                      </div>
+                    </div>
+                    <div class="additional-images" style="display: none;">
+                      <a href="assets/img/projects/coworking/coworking-2.jpg" class="gallery-popup"></a>
+                      <a href="assets/img/projects/coworking/coworking-3.jpg" class="gallery-popup"></a>
+                      <a href="assets/img/projects/coworking/coworking-4.jpg" class="gallery-popup"></a>
+                      <a href="assets/img/projects/coworking/coworking-5.jpg" class="gallery-popup"></a>
+                    </div>
+                  </div>
+
+                  <!-- PROJETO - 05 (JOÃO) -->
+                  <div class="projects-item" data-category="branding">
+                    <div class="image">
+                      <img src="assets/img/projects/joao/joao-1.jpg" alt="João André - Branding"
+                        class="img-fluid w-100">
+                      <a href="assets/img/projects/joao/joao-1.jpg" class="gallery-popup full-image-preview">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">João André - Branding</span>
+                      </div>
+                    </div>
+                    <div class="additional-images" style="display: none;">
+                      <a href="assets/img/projects/joao/joao-2.jpg" class="gallery-popup"></a>
+                      <a href="assets/img/projects/joao/joao-3.jpg" class="gallery-popup"></a>
+                    </div>
+                  </div>
+
+                  <!-- PROJETO - 06 (LOCALIZA) -->
+                  <div class="projects-item" data-category="wordpress">
+                    <div class="image">
+                      <img src="assets/img/projects/localiza/localiza-1.jpg" class="img-fluid w-100"
+                        alt="Localiza Vagas - Wordpress">
+                      <a href="https://localizavagas.com.br" class="full-image-preview" target="_blank">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Localiza Vagas - Wordpress</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PROJETO - 07 (LOBO INVEST) -->
+                  <div class="projects-item" data-category="wordpress">
+                    <div class="image">
+                      <img src="assets/img/projects/loboinvest/loboinvest-1.jpg" class="img-fluid w-100"
+                        alt="Lobo Invest - Wordpress">
+                      <a href="https://loboinvest.com.br" class="full-image-preview" target="_blank">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Lobo Invest - Wordpress</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- PROJETO - 09 (Cortilar) -->
+                  <div class="projects-item" data-category="branding">
+                    <div class="image">
+                      <img src="assets/img/projects/cortilar/cortilar-1.jpg" class="img-fluid w-100"
+                        alt="Corti-Lar - Branding">
+                      <a href="assets/img/projects/cortilar/cortilar-1.jpg" class="gallery-popup full-image-preview">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                          <path d="M10 4.167v11.666M4.167 10h11.666"></path>
+                        </svg>
+                      </a>
+                      <div class="info">
+                        <span class="category">Corti-Lar - Branding</span>
+                      </div>
+                    </div>
+                    <div class="additional-images" style="display: none;">
+                      <a href="assets/img/projects/cortilar/cortilar-2.jpg" class="gallery-popup"></a>
+                      <a href="assets/img/projects/cortilar/cortilar-3.jpg" class="gallery-popup"></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Home End -->
+
+
+
+    <!-- Pop-up Formulário de Contato -->
+    <div id="contact-popup" class="contact-popup">
+      <div class="popup-content">
+        <span class="close-popup">&times;</span>
+        <h2>Entre em Contato</h2>
+        <form id="contact-form" action="#" method="post">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">Assunto:</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer-area">
+      <div class="container">
+        <div class="text text-center">
+          <p>@ Adolfo Henrique - Alura Challenge Portfólio</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </div>
+
+  <!-- Arquivos JS -->
+  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/clipboard.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
