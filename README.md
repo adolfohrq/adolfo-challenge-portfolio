@@ -9,7 +9,7 @@ Bem-vindo ao meu portfólio profissional!
 <br>
 Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.
 <br><br>
-O objetivo é apresentar minhas habilidades em desenvolvimento web, aplicando técnicas aprendidas no curso e também conhecimentos que já havia adquirido ou que adquiri durante o processo de desenvolvimento.
+No desenvolvimento deste projeto, pude aplicar técnicas e conhecimentos que já possuía, além de colocar em prática novos aprendizados adquiridos nos cursos da Alura.
 
 ---
 
