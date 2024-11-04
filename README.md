@@ -46,10 +46,6 @@ A organização do projeto está dividida em diferentes pastas para facilitar a 
    git clone https://github.com/adolfohrq/adolfo-challenge-portfolio.git
    ```
 
-## 💬 Contribuições
-
-Tem sugestões? Encontrou algum problema? Contribuições são sempre bem-vindas. Fique à vontade para abrir issues ou enviar pull requests.
-
 ---
 
 Desenvolvido com 💙 por Adolfo Henrique
