@@ -4,11 +4,8 @@
 
 
 # Portfólio Adolfo Henrique | Desafio Alura Challenge
-Este projeto foi desenvolvido como parte do **Desafio Alura Challenge | Front End**.
-<br><br>
-Bem-vindo ao meu portfólio profissional!
-<br>
-No desenvolvimento deste projeto, pude aplicar técnicas e conhecimentos que já possuía, além de colocar em prática novos aprendizados adquiridos nos cursos da Alura.
+
+Este projeto foi desenvolvido como parte do Desafio Alura Challenge | Front End. Seu objetivo era apresentar minhas habilidades em desenvolvimento web, aplicando tanto técnicas e conhecimentos que eu já possuía quanto novos aprendizados adquiridos nos cursos da Alura.
 
 ---
 
